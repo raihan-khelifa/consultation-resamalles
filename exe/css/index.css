@@ -1,0 +1,140 @@
+/**************************************/
+/** login_zone
+/**************************************/
+
+#login_zone {
+	color: #006978;
+	margin: 50px auto 0 auto;
+	padding: 30px;
+	width: 400px;
+	background: #F5F5F5;
+	position: relative;
+}
+
+#login_zone #note {
+	position: absolute;
+	top: 280px;
+	left: 0;
+	color: #878787;
+	text-align: justify;
+}
+
+#login_zone #note a {
+	font-weight: bold;
+}
+
+/**************************************/
+/** index
+/**************************************/
+
+#button_my_reservation .my_reservation_counter {
+	padding: 0;
+}
+
+#warning {
+	color: #F44336;
+	font-weight: bold;
+}
+
+/**************************************/
+/** search_zone
+/**************************************/
+
+#button_add_document, #button_edit_reservation {
+	font-weight: bold;
+	color: #006978;
+	cursor: pointer;
+	padding: 20px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+#search_zone {
+	margin: 30px auto 20px auto;
+	width: 510px;
+	text-align: left;
+}
+
+#search_zone .field {
+	width: 300px;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+#search_zone button {
+	width: 80px;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+/**************************************/
+/** result_zone
+/**************************************/
+
+#result_zone {
+	margin: 30px auto 20px auto;
+	text-align: center;
+}
+
+#result_zone table {
+	width: 90%;
+	margin: auto;
+	color: black;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+#result_zone td {
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 50px;
+}
+
+#result_zone tr:nth-child(odd) {
+	background: #F0F0F0;
+}
+
+#result_zone tr:first-child { 
+	background: #000000;
+	color: white;
+}
+
+#result_zone .document_zone:hover {
+	background: #006978;
+	color: white;
+	cursor: pointer;
+}
+
+.document_zone .title {
+	text-align: left;
+}
+
+.document_zone .menu {
+	display: none;
+}
+
+.document_zone .fa {
+	margin-right: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.available_zone {
+	min-width: 90px;
+}
+
+.available_zone .available_flag {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 2px;
+	border-radius: 3px;
+}
+
+.available_zone .available_flag_yes {
+	background: #CDDC39;
+}
+
+.available_zone .available_flag_no {
+	background: #F44336;
+}

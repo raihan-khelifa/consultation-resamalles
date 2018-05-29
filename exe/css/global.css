@@ -1,0 +1,157 @@
+html, body {
+	font-family: arial;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #878787;
+}
+
+a {
+	text-decoration: none;
+	color: #006978;
+}
+
+button {
+	height: 40px;
+	line-height: 40px;
+	width: 200px;
+	background: #006978;
+	border: 1px solid #006978;
+	color: white;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+
+.button {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	width: 200px;
+	background: #006978;
+	border: 1px solid #006978;
+	color: white;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+
+.field {
+	width: 190px;
+	height: 36px;
+	border: 1px solid #878787;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#black_screen {
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: black;
+    background: #000;
+	opacity: .50;
+	-ms-filter: "alpha(opacity=50)";
+	filter: alpha(opacity=50);
+	-khtml-opacity: .50;
+	-moz-opacity: .50;
+    z-index: 1000;
+}
+
+.popup {
+	display: none;
+	background: #FFFFFF;
+	width: 800px;
+	height: 400px;
+	z-index: 10001;
+	border-radius: 3px;
+	padding: 10px;
+	-moz-box-shadow: 0px 0px 10px 0px #2A2A2A;
+	-webkit-box-shadow: 0px 0px 10px 0px #2A2A2A;
+	-o-box-shadow: 0px 0px 10px 0px #2A2A2A;
+	box-shadow: 0px 0px 10px 0px #2A2A2A;
+	text-align: left;
+}
+
+.button_close_popup {
+	position: absolute;
+	color: black;
+	font-size: 22px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.popup iframe {
+	width: 770px;
+	height: 390px;
+	border: none;
+}
+
+.black {
+	color: black;
+}
+
+.green {
+	color: #006978;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/**************************************/
+/** header
+/**************************************/
+
+#header {
+	height: 100px;
+	line-height: 100px;
+	background: #006978;
+	color: white;
+	font-size: 18px;
+}
+
+#header .left {
+	display: inline-block;
+	margin-top: 15px;
+	width: 48%;
+	text-align: right;
+	vertical-align: top;
+}
+
+#header .left img {
+	margin-right: 20px;
+	width: 100%;
+	max-width: 318px;
+}
+
+#header .right {
+	display: inline-block;
+	margin-top: 15px;
+	width: 50%;
+	text-align: left;
+	vertical-align: top;
+	line-height: 20px;
+}
+
+#header .right p {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/**************************************/
+/** menu
+/**************************************/
+
+#menu {
+	background: black;
+	color: white;
+	font-size: 14px;
+}
+
+#menu span {
+	display: inline-block;
+	padding: 20px;
+	cursor: pointer;
+}

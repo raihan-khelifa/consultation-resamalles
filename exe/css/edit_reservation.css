@@ -1,0 +1,30 @@
+/**************************************/
+/** search_zone
+/**************************************/
+
+#button_add_document, #button_edit_reservation {
+	font-weight: bold;
+	color: #006978;
+	cursor: pointer;
+	padding: 20px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+#search_zone {
+	margin: 30px auto 20px auto;
+	width: 510px;
+	text-align: left;
+}
+
+#search_zone .field {
+	width: 300px;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+#search_zone button {
+	width: 80px;
+	vertical-align: top;
+	margin-right: 10px;
+}

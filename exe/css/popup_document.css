@@ -1,0 +1,271 @@
+/**************************************/
+/** document_open
+/**************************************/
+
+html, body { overflow: hidden; }
+
+body {
+	text-align: left;
+}
+
+#document_title {
+	background: #006978;
+	color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#document_detail {
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	margin-right: 30px;
+}
+
+#document_detail span {
+	color: black;
+}
+
+#document_detail #mot_cle {
+	height: 70px;
+	overflow: auto;
+}
+
+#document_detail #resume {
+	height: 70px;
+	overflow: auto;
+}
+
+#document_reservation {
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	background: #F5F5F5;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#document_reservation label {
+	display: inline-block;
+	width: 50px;
+	height: 45px;
+	line-height: 45px;
+	vertical-align: top;
+	color: black;
+}
+
+#document_reservation span {
+	display: inline-block;
+	width: 250px;
+	vertical-align: top;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+
+/**************************************/
+/** document_add
+/**************************************/
+
+#popup_document_add label {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	padding: 5px 10px 5px 0;
+	vertical-align: top;
+}
+
+#popup_document_add span {
+	display: inline-block;
+	text-align: left;
+}
+
+#popup_document_add span input {
+	padding: 3px;
+	border-radius: 3px;
+	width: 550px;
+	border: 1px solid #878787;
+}
+
+#popup_document_add p {
+	text-align: center;
+}
+
+#popup_document_add textarea {
+	height: 45px;
+	width: 550px;
+}
+
+/**************************************/
+/** reservation1 et reservation2
+/**************************************/
+
+#client_zone select {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#client_zone p {
+	text-align: center;
+}
+
+#popup_reservation1, #popup_reservation2, #popup_reservation3  {
+	position: relative;
+	color: #878787;
+	margin-right: 30px;
+	height: 400px;
+}
+
+#popup_reservation1 .label, #popup_reservation2 .label {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #878787;
+	margin-right: 20px;
+}
+
+#popup_reservation1 span, #popup_reservation2 span {
+	margin-right: 20px;
+}
+
+#popup_reservation1 label, #popup_reservation2 label {
+	display: inline-block;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+}
+
+#popup_reservation1 .menu, #popup_reservation2 .menu, #popup_reservation3 .menu {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+#button_cancel_reservation, #button_back_reservation1 {
+	margin-right: 30px;
+}
+
+#popup_reservation1 .detail, #popup_reservation2 .detail, #popup_reservation3 .detail {
+	font-size: 16px;
+	font-weight: bold;
+	color: #006978;
+	text-align: left;
+}
+
+#popup_reservation1 .label, #popup_reservation2 .label {
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+}
+
+#popup_reservation1 .radio, #popup_reservation2 .radio {
+	color: black;
+	cursor: pointer;
+}
+
+#popup_reservation1 .radio:hover, #popup_reservation2 .radio:hover {
+	color: #006978;
+}
+
+#popup_reservation1 label, #popup_reservation2 label {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#popup_reservation1 select, #popup_reservation2 select {
+	margin-left: 20px;
+}
+
+#popup_reservation1 .information, #popup_reservation2 .information {
+	width: 655px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #AAAAAA;
+}
+
+#popup_reservation1 .user_info {
+	width: 220px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #AAAAAA;
+	margin-right: 10px;
+}
+
+#popup_reservation3 {
+	font-size: 14px;
+	color: black;
+}
+
+#popup_reservation3 label {
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#popup_reservation3 #reservation_zone {
+	background: #F5F5F5;
+	padding: 10px;
+	height: 200px;
+	overflow: auto;
+	border-radius: 3px;
+	border-bottom: 1px solid #808080;
+}
+
+#popup_reservation3 #goodbye_zone {
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #006978;
+}
+
+/**************************************/
+/** my_reservation
+/**************************************/
+
+#popup_my_reservation .reservation_zone {
+	height: 80px;
+	margin-bottom: 10px;
+	background: #F5F5F5;
+	color: black;
+	border-radius: 5px;
+	position: relative;
+	width: 730px;
+	overflow: auto;
+}
+
+#popup_my_reservation #reservation_list {
+	height: 350px;
+	overflow: auto;
+}
+
+#popup_my_reservation .reservation_zone div {
+	display: inline-block;
+}
+
+#popup_my_reservation .reservation .titre {
+	width: 580px;
+	padding: 5px 0 0 20px;
+	margin: 0;
+}
+
+#popup_my_reservation .reservation .retrait {
+	width: 580px;
+	padding: 5px 0 0 20px;
+	margin: 0;
+}
+
+#popup_my_reservation .reservation .retour {
+	width: 580px;
+	padding: 5px 0 0 20px;
+	margin: 0;
+}
+
+#popup_my_reservation .button_cancel_reservation {
+	text-align: center;
+	width: 100px;
+	position: absolute;
+	right: 10px;
+	top: 19px;
+}
